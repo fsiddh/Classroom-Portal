@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laaliproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaaliProject">
+        <activity android:name=".FinalStudentDetails"></activity>
+        <activity android:name=".MPScreens.MPMentorStudents" />
+        <activity android:name=".PostSession" />
+        <activity android:name=".StudentScreens.SubmitAssignment" />
+        <activity android:name=".StudentScreens.StudentMentor" />
+        <activity android:name=".StudentScreens.StudentProfile" />
+        <activity android:name=".StudentScreens.StudentAssignments" />
+        <activity android:name=".MentorScreens.MentorPostAssignment" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MentorScreens.MentorAssignments" />
+        <activity android:name=".MentorScreens.MentorPage" />
+        <activity android:name=".MentorScreens.MentorProfile" />
+        <activity android:name=".MentorScreens.MentorSessions" />
+        <activity android:name=".MPScreens.MPAssignments" />
+        <activity android:name=".MPScreens.MPProfile" />
+        <activity android:name=".MPScreens.MPSessions" />
+        <activity android:name=".MPScreens.PMpage" />
+        <activity android:name=".StudentScreens.StudentPage" />
+    </application>
+
+</manifest>

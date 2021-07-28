@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "366000995858",
+    "firebase_url": "https://cfg-team-56-default-rtdb.firebaseio.com",
+    "project_id": "cfg-team-56",
+    "storage_bucket": "cfg-team-56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366000995858:android:673c9200ac2713be8ce2cb",
+        "android_client_info": {
+          "package_name": "com.example.laaliproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366000995858-q3ttsltcqvi9348n1ji5opclieqn51c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.laaliproject",
+            "certificate_hash": "53dac16342c9e54e5e7fd1dc5e56a386797dfc8b"
+          }
+        },
+        {
+          "client_id": "366000995858-85s87nlq50bmre27jevf05vbri5sihdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXmRJHGoPvlw0zxHTklfQb4bdeknLaUcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366000995858-85s87nlq50bmre27jevf05vbri5sihdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

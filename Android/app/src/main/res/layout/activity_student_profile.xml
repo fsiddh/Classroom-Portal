@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentScreens.StudentProfile">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="674dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:itemBackground="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/bottom_navigation"
+        tools:ignore="PrivateResource" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="155dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="431dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_manage_accounts_24" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="275dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="387dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="95dp"
+        android:text="Logout"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
